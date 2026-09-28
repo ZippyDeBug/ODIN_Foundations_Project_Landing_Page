@@ -6,46 +6,39 @@ body {
     font-size: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+        
 }
 
 .header {
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     color: #F9FAF8;   
     justify-content: space-between;
-    padding: 10px 20% 10px 20%;
     align-items: center;
     font-size: 24px;
-    
+        
 }
 
+.headerbackground,
 .herobackground,
 .infobackground,
 .quotebackground,
-.ctabackground {
+.ctabackground,
+.footbackground {
     display: flex;
     flex-grow: 1 0 auto;
-    justify-content: center;
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 30px;
     padding-top: 30px;
-
+    align-items: center;
+    justify-content: center;
 }
-
 
 .quotebackground {
     background-color: #E5E7EB;
 
-}
-
-.ctabackground { 
-    display: flex;
-    flex-grow: 1 0 auto;
-    justify-content: center;
-    padding-left: 20%;
-    padding-right: 20%;
 }
 
 .header .logo {
@@ -84,6 +77,7 @@ body {
     gap: 18px;
     font-size: 18px;
     text-align: center;
+    align-items: center 
     
 }
 
@@ -129,18 +123,23 @@ body {
 
 .cta {
     display: flex;
-    flex-direction: column;
     flex-grow: 1;
     gap: 18px;
     align-items: center;
+    background-color: #3882F6;
+    align-items: flex-end;
+    padding: 20px 30px 20px 30px ;
+    border-radius: 12px;
+    justify-content: space-evenly;
 }
 
 .footer {
     flex-grow: 1;
     gap: 18px;
     text-align: center;
-    padding: 18px;
+    padding: 18px 20% 18px 20%;
     max-height: 30px;
+
 }
 
 ul {
@@ -165,9 +164,9 @@ button {
     color: #3882F6;
 }
 
-.header,
+.headerbackground,
 .herobackground,
-.footer {
+.footerbackground {
     background-color: #1F2937;
     color: white;
     font-size: 15px;
@@ -179,5 +178,15 @@ button {
 .cta {
     margin-top: 40px;
     margin-bottom: 40px;
+    
+}
+.header,
+.hero,
+.random-info,
+.quote,
+.cta,
+footer {
+    max-width: 800px;
+
 
 }
