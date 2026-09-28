@@ -19,6 +19,23 @@ body {
     
 }
 
+.random-info {
+    justify-items: center;
+}
+
+.random-info li {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-info img {
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    border: 3px solid #3882F6;
+}
 
 ul {
     display: flex;
