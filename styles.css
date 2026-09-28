@@ -19,8 +19,41 @@ body {
     
 }
 
+.hero {
+    display: flex;
+    flex-grow: 1;
+    gap: 18px;
+    justify-content: center
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 18px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 18px;
+    align-items: center;
+}
+
+.footer {
+    flex-grow: 1;
+    gap: 18px;
+    text-align: center;
+    padding: 18px;
+    max-height: 30px;
+    }
+
 .random-info {
     justify-items: center;
+    flex-grow: 1;
 }
 
 .random-info li {
@@ -28,6 +61,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 18px;
+    text-align: center
+    ;
+
 }
 
 .random-info img {
@@ -35,6 +72,8 @@ body {
     height: 150px;
     background-color: antiquewhite;
     border: 3px solid #3882F6;
+    border-radius: 25px;
+    
 }
 
 ul {
@@ -59,4 +98,5 @@ button {
 .hero,
 .footer {
     background-color: #1F2937;
+    color: white
 }
